@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Dünya Mutfakları</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Dünya Mutfakları</div>
+        <nav class="nav-bar navbar sticky-top">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Ana Sayfa</a></li>
+                <li class="nav-item"><a href="#anasa" class="nav-link">Yemekler</a></li>
+                <li class="nav-item"><a href="#kategori" class="nav-link">Kategoriler</a></li>
+                <li class="nav-item"><a href="#hakkında" class="nav-link">Hakkımızda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="container content">
+            <h4>En Bilinen Dünya Mutfakları</h4>
+            <h1>Dünya Mutfakları</h1>
+            <h3>Hadi Keşfedelim..</h3>
+            <div class="button">Keşife Başla</div>
+        </div>
+    </div>
+    
+    <section class="about">
+        <h2 id="hakkında">Hakkımızda</h2>
+        <div class="container main">
+            <img src="images/masa.png" alt="">
+            <div class="about-text">
+                <p>Sizleri dünyanın her köşesinden lezzetlerle buluşturuyoruz. 
+                Ünlü gurmelerimizin yaptığı yorumlar eşliğinde sizlere akıl almaz bir deneyim sunuyouruz.
+                 Başta Türk Mutfağı olmak üzere Fransız,İtalyan ve Meksika Mutfaklarından meşhur 
+                 seçmelerle sizin ufkunuzu açmayı görev bildik.</p>
+
+            </div>
+        </div>
+    </section>
+    <div class="categories">
+        <h2 id="kategori">Kategoriler</h2>
+        <div class="box justify-content-around">
+            <div class="ca-card">
+                <img src="images/turk.png" alt="">
+                <div class="content">
+                    <h3>Türk Mutfağı</h3>
+                    <p>Türk mutfağı, tarih boyunca çeşitli kültürlerin etkisiyle zenginleşen ve geniş bir çeşitlilik sunan bir mutfaktır. Et yemekleri, kebaplar, börekler, çorbalar ve tatlılar gibi çeşitli lezzetleriyle tanınır.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="images/italya.png" alt="">
+                <div class="content">
+                    <h3>İtalyan Mutfağı</h3>
+                    <p>İtalyan mutfağı, taze malzemelerle yapılan lezzetli yemekler sunar. Makarna, pizza ve zeytinyağı gibi temel öğeleriyle ünlüdür. Bölgesel çeşitlilik gösterir ve kaliteye önem verir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="images/fransız.png" alt="">
+                <div class="content">
+                    <h3>Fransız Mutfağı</h3>
+                    <p>Fransa'da geliştirilmiş, zenginliği ve çeşitliliğiyle ünlü, yemek pişirmenin sanatsal 
+                    yönünü ön plana çıkaran bir ulusal mutfaktır. Fransız mutfağının kökeni Orta Çağına 
+                    uzanır.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="images/meksika.png" alt="">
+                <div class="content">
+                    <h3 >Meksika Mutfağı</h3>
+                    <p>Meksika mutfağı, zengin ve çeşitli tatlar sunan bir mutfaktır. Temelinde mısır, fasulye, biber ve avokado gibi yerel ürünler bulunur. Ünlü yemekleri arasında taco, burrito ve guacamole yer alır.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="recipe">
+        <h2 id="anasa">Ülkelerin Meşhur Yemekleri</h2>
+        <div class="box justify-content-around">
+            <div class="card">
+                <img src="images/çiğköfte.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Türk Mutfağı - Çiğ Köfte</h3>
+                    <p class="fw-bold lh-sm fst-italic">Çiğ köfte, özellikle Güneydoğu Anadolu Bölgesi'nde, özellikle de Şanlıurfa, Gaziantep ve Diyarbakır gibi illerde oldukça popülerdir. Bu bölgelerde çiğ köfte, geleneksel olarak tüketilen ve yöresel lezzetleriyle öne çıkan bir atıştırmalıktır.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/hünkarbeğendi.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Türk Mutfağı - Hünkar Beğendi</h3>
+                    <p class="fw-bold lh-sm fst-italic">Hünkarbeğendi, Osmanlı mutfağına dayanan ve özellikle İstanbul ve Bursa gibi şehirlerde popüler olan bir Türk yemeğidir. Genellikle kuzu veya dana etiyle hazırlanır ve üzerine patlıcan püresi ve kaşar peyniri serpilerek servis edilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/iskender.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Türk Mutfağı - İskender</h3>
+                    <p class="fw-bold lh-sm fst-italic">İskender kebap, Türk mutfağının önemli bir yemeğidir ve özellikle Bursa şehrine özgüdür. Genellikle döner etinin üzerine domates sosu ve tereyağı ile hazırlanan yoğurt ile servis edilir. İskender kebap, Bursa'nın tanınmış bir lezzetidir ve Türk mutfağının popüler yemeklerinden biridir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/kebap.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Türk Mutfağı - Kebap</h3>
+                    <p class="fw-bold lh-sm fst-italic">Kebap, Türk mutfağının köklü bir parçasıdır ve farklı bölgelerde çeşitli şekilde hazırlanır. Örneğin, Adana kebap Güneydoğu Anadolu Bölgesi'ne özgüdür, Urfa kebap ise daha az baharatlıdır ve ince kıyılmış et içerir. Döner etinin üzerine tereyağı ve domates sosu ile servis edilir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/mantı.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Türk Mutfağı - Mantı</h3>
+                    <p class="fw-bold lh-sm fst-italic">Mantı, hamurun içine genellikle kıyma, soğan ve baharat karışımı konularak hazırlanır. Kayseri mantısı ince hamur ve küçük iç harcıyla meşhurdur ve genellikle sarımsaklı yoğurt ve tereyağında servis edilir. Yöresel olarak farklılık gösterebilir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/keşkek.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Türk Mutfağı - Keşkek</h3>
+                    <p class="fw-bold lh-sm fst-italic">Keşkek, Türk mutfağında geleneksel bir yemektir ve genellikle buğday ve etin bir araya getirilmesiyle yapılır. Özellikle Anadolu'nun çeşitli bölgelerinde tüketilir ve genellikle özel günlerde ve toplu etkinliklerde servis edilir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/lazanya.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">İtalyan Mutfağı - Lazanya</h3>
+                    <p class="fw-bold lh-sm fst-italic">Lazanya, peynir, domates sosu veya ragù ile yapılan İtalya asıllı bir yemektir. 
+                    Türkiye'de benzeri su böreğinin domates soslu ve daha sulu pişirilmiş bir çeşidi
+                     denilebilir. Farklı katmanlarda ve farklı şekillerde yapılabilen yemeğe, ricotta 
+                    veya mozzarella peyniri eklenebilmektedir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/makarna.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">İtalyan Mutfağı - Spagetti</h3>
+                    <p class="fw-bold lh-sm fst-italic">Spagetti, uzun, ince ve silindirik bir makarna türüdür. 
+                    Geleneksel İtalyan mutfağının temel gıda maddelerinden biri olup diğer makarnalar 
+                    gibi öğütülmüş buğday ve sudan yapılır. İtalyan spagettisi makarnalık irmikten yapılır,
+                     ancak başka yerlerde başka tür unlarla da yapılabilir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="images/pizza.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">İtalyan Mutfağı - Pizza</h3>
+                    <p class="fw-bold lh-sm fst-italic">pizza, domates, peynir ve genellikle çeşitli diğer malzemelerle yenen bir yemektir. 
+                    Üstü genellikle yuvarlak, düz bir mayalı buğday bazlı hamur tabanından oluşan İtalyan 
+                    kökenli bir yemektir. Geleneksel olarak taş fırında yüksek sıcaklıkta pişirilir. Küçük 
+                    bir pizzaya bazen pizzetta denir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/risotto.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">İtalyan Mutfağı - Risotto</h3>
+                    <p class="fw-bold lh-sm fst-italic">Risotto, et, tavuk veya sebze suyunda pişirilerek krema kıvamına getirilmiş bir tür 
+                     pirinç pilavıdır. İtalyan mutfağının önemli yemeklerinden biri olan risotto, İtalya'da
+                     pirincin en yaygın tüketim şekillerinden biridir. pek çok yörede pilava soğan ve şarap
+                     katılarak pişirilir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bruschetta.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">İtalyan Mutfağı - Bruschetta</h3>
+                    <p class="fw-bold lh-sm fst-italic">Bruschetta, bir İtalyan başlangıç yemeğidir. Bu yemek, sarımsak ile ovalanıp, zeytinyağı
+                    ve tuz ile süslenen ızgara ekmekten oluşmaktadır. Çeşitlerine göre domates, sebzeler, 
+                    peynir veyahut fasulye eklenebilir. Bruschetta, soğuk olarak servis edilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/gnocchi.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">İtalyan Mutfağı - Gnocchi</h3>
+                    <p class="fw-bold lh-sm fst-italic">Gnocchi, İtalyan mutfağında çeşitli bir hamur tatlısı ailesidir. En geleneksel 
+                    şekilde buğday unu, yumurta, tuz ve patatesin basit bir kombinasyonundan oluşan 
+                    küçük hamur topaklarından yapılırlar.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/danatartar.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Fransız Mutfağı-Dana Tartar</h3>
+                    <p class="fw-bold lh-sm fst-italic">Dana tartar, çiğ dana etinin doğranarak baharatlar ve diğer aromatik malzemelerle karıştırılarak yapılan bir yemektir. Genellikle soğuk olarak servis edilir ve yanında çeşitli garnitürlerle sunulabilir.</p>
+                     <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/nicesalatası.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Fransız Mutfağı - Nice Salatası</h3>
+                    <p class="fw-bold lh-sm fst-italic">Niçoise salatası, Fransız mutfağına ait bir lezzet ve genellikle yeşil fasulye, haşlanmış yumurta dilimleri, dilimlenmiş domatesler, ton balığı, zeytinler ve taze maydanoz içerir. Üzerine zeytinyağı ve limon suyu bazlı sos gezdirilerek servis edilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/sığırburginyon.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Fransız Mutfağı - Sığır Bürginyon</h3>
+                    <p class="fw-bold lh-sm fst-italic">Boeuf bourguignon veya Sığır Burginyon Fransa'nın Burgonya bölgesine ait şarap ile 
+                    pişirilmiş et yemeğidir. Farklı tariflerde mantar, soğan, havuç, patates veya domuz 
+                    kıyması eklenmesi önerilebilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/kruvasan.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Fransız Mutfağı - Kruvasan</h3>
+                    <p class="fw-bold lh-sm fst-italic">Kruvasan, Türkçe "ay çöreği, hilâl açması" anlamına gelen Avusturya kökenli,
+                     kat kat ve hilâl şeklinde olan bir yiyecektir. Sadece tereyağıyla yapıldığı için 
+                    açma ile farkı büyüktür. Genellikle yanında kahve ile yenilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/şatobiryan.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Fransız Mutfağı - Şatobiryan</h3>
+                    <p class="fw-bold lh-sm fst-italic">Chateaubriand, geleneksel olarak, pişirildikten sonra atılan daha küçük iki et parçası
+                    arasında ızgarada pişirilen büyük bir önden kesilmiş bonfile filetodan oluşan bir 
+                    yemektir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card"> 
+                <img src="images/krembrule.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Fransız Mutfağı - Krembrule</h3>
+                    <p class="fw-bold lh-sm fst-italic">Crème brûlée veya crème brulée, yanık kreması veya Trinity kreması olarak da bilinir ve 
+                    orijinal crema catalana ile hemen hemen aynıdır, sertleştirilmiş karamelize şeker 
+                    tabakasıyla kaplanmış zengin bir muhallebi tabanından oluşan bir tatlıdır.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fajita.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Meksika Mutfağı - Fajita</h3>
+                    <p class="fw-bold lh-sm fst-italic">Fajita, Tex-Mex mutfağına ait ızgara et ve buğday ya da mısır unuyla yapılmış tortilla
+                    ile ikram edilen bir çeşit yemektir. Orijinali dana eti ile yapılmasına karşın günümüzde 
+                    tavuk, domuz ve karides ile yapılan çeşitleri de vardır.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/taco.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Meksika Mutfağı - Taco</h3>
+                    <p class="fw-bold lh-sm fst-italic">Taco, Meksika mutfağına ait bir yemektir. Temel olarak, mısır veya buğday unu tortillasının içine çeşitli malzemelerin konulmasıyla hazırlanır. Bu malzemeler genellikle et, sebzeler, salsa, peynir ve guacamole gibi garnitürler bulunur. Taco, Dünya'da popülerdir ve çeşitli tatlar sunar.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/gazpacho.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Meksika Mutfağı - Gazpacho</h3>
+                    <p class="fw-bold lh-sm fst-italic">Gaspaço, İspanyol ve Meksika mutfağının ortak yemeği, taze sebzeden püre halinde pişirilen bir tür çorbadır. 
+                        İçeriğinde hayvansal besin olmayan vejetaryen bir yemektir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/nachos.jpg" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Meksika Mutfağı - Nachos</h3>
+                    <p class="fw-bold lh-sm fst-italic">Nachos, Meksika mutfağına ait bir atıştırmalıktır. Mısır cipsleri veya tortillasının üzerine eritilmiş peynir ve çeşitli garnitürler eklenerek hazırlanır. Özellikle ABD'de popülerdir; jalapeno biberleri, salsa, guacamole, siyah fasulye ve et gibi malzemelerle servis edilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/enchilada.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Meksika Mutfağı - Enchilada</h3>
+                    <p class="fw-bold lh-sm fst-italic">Enchilada, mısırdan üretilen tortilla'ya, farklı ve çeşitli iç malzemeler konulması
+                    ve rulo şeklinde sarılan tortilla'nın üzerine acı biber sosu gezdirilmesiyle 
+                    yapılan, Meksika mutfağından çıkan ve Amerikan mutfağında da yer alan yemek. </p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/burrito.png" alt="" class="img-thumbnail">
+                <div class="content">
+                    <h3 class="fw-bolder">Meksika Mutfağı - Burrito</h3>
+                    <p class="fw-bold lh-sm fst-italic">Burrito veya taco de harina, bir Meksika yemeği. Dürüme benzer. Tortillanın 
+                    katlanış biçimi, içerisine sürülen fasulye püresi, et, tavuk, peynir gibi 
+                    malzemelerle değişik çeşitler hazırlanabilir.</p>
+                    <button class="btn btn-dark">Daha Fazlası</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
